@@ -1,4 +1,4 @@
-(document).ready(function() {
+$(document).ready(function() {
     $("#orderedlist").addClass("red");
     $("#orderedlist li").addClass("blue");
     $("#orderedlist li:last").hover(function() {
